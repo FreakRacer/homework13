@@ -27,11 +27,15 @@ body{
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1256px;
     margin: auto;
 }
 
-//head
+.bg__grey{
+    background-color: #F2F4FA;
+    
+}
+/* head */
 
 .navbar{
     padding: 24px 0;
@@ -66,11 +70,11 @@ main{
 .main-text{
    
     
-    padding-top: 110px ;
+    padding-top: 50px ;
     h1{
-        width: 520px;
+        width: 528px;
         font-family: "Poppins", sans-serif;
-        letter-spacing: 5%;
+        letter-spacing: 5px;
         @include text(300, 58px , 64px , #3F4255 )
 
     }
@@ -90,7 +94,7 @@ main{
         text-align: center;
         border: solid 2px #FFE145;
         @include text(400, 12px, 16px, #3F4255 );
-        @include box(117px, 72px, 4px, none, 20px 0)
+        @include box(117px, 72px, 4px, none, 17px 0)
 
 
     }
@@ -103,7 +107,7 @@ main{
     img{
         position: absolute;
         top: -18px;
-        left: 450px;
+        left: 480px;
         z-index: 1;
         
     
@@ -113,7 +117,7 @@ main{
 
 .bar{
     width: 872px ;
-    margin-top: 230px;
+    margin-top: 315px;
     column-gap: 45px ;
     padding: 28px 25px;
     padding-left: 98px;
@@ -132,3 +136,110 @@ main{
 
     }
 }
+//bar
+
+.places{
+    padding-top: 0px;
+    &__text{
+        align-items: center;
+        h2{
+            letter-spacing: 2.5px;
+            font-family: "Poppins", sans-serif;
+            @include text(300, 36px, 64px, #3F4255)
+                   }
+
+        button{
+            letter-spacing: 0,5%;
+            text-align: center;
+            @include box(118px, 48px, 4px, #F2F4FA, 17px 24p);
+            @include text(700, 16px, 20px, #9093A6)
+        }
+    }
+
+    &__img{
+            padding-top: 48px;
+            padding-bottom: 72px;
+            column-gap: 30px;
+        &__item{
+            box-shadow: 0px 2px 16px 0px #3C3E4A14;
+
+            .places-logo-1{
+                padding: 25px 70px;
+            }
+            .places-logo-2{
+                padding: 40px 72px ;
+            }
+
+              .places-logo-3{
+                padding: 30px 53px ;
+              }
+
+            .places-logo-4{
+                padding: 19px 93px;
+            }
+
+        }
+    }
+}
+// form
+
+.form{
+    padding: 80px 80px;
+    column-gap: 159px ;
+
+    &__text{
+            
+
+        h2{
+            padding-bottom: 24px;
+            font-family: "Poppins", sans-serif;
+            letter-spacing: 2.5px;
+            @include text(300, 36px, 64px, #3F4255 )
+        }
+        p{
+            
+            width: 424px;
+            letter-spacing: 0.5px;
+            @include text(400, 16px, 25px, #3F4255)
+            
+        }
+    }
+
+    form{  
+             position: relative;
+            top: 0;
+            left: 0;
+            column-gap: 4px;
+
+            img{
+                position: absolute;
+                top: 22.7px;
+                left: 18px;
+                z-index: 5;
+
+            }
+        input{
+            @include box(336px, 72px, 6px, white, 24px 48px );
+            box-shadow: 0px 8px 40px 0px #00000014;
+
+
+        &::placeholder{
+           
+            padding: 24px, 48px;
+            letter-spacing: 0.5px;
+            @include text(400, 16px, 24px, #9093A6);
+        
+        } }
+        
+        button{
+            
+            @include text(700, 16px, 20px, #B79C10 );
+            @include box(88px, 72px, 4px, #FFE145, 28px 24px  )
+
+        }
+        
+
+
+
+        }
+    }
