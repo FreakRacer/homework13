@@ -35,6 +35,11 @@ body{
     background-color: #F2F4FA;
     
 }
+.bg-img{
+    background-image: url(../img/limons.jpg);
+    width: 1440px;
+    height: 284px;
+}
 /* head */
 
 .navbar{
@@ -159,7 +164,6 @@ main{
     &__img{
             padding-top: 48px;
             padding-bottom: 72px;
-            column-gap: 30px;
         &__item{
             box-shadow: 0px 2px 16px 0px #3C3E4A14;
 
@@ -177,11 +181,11 @@ main{
             .places-logo-4{
                 padding: 19px 93px;
             }
+            }
+            }
+            }
 
-        }
-    }
-}
-// form
+// places
 
 .form{
     padding: 80px 80px;
@@ -196,27 +200,23 @@ main{
             letter-spacing: 2.5px;
             @include text(300, 36px, 64px, #3F4255 )
         }
-        p{
-            
+        p{ 
             width: 424px;
             letter-spacing: 0.5px;
-            @include text(400, 16px, 25px, #3F4255)
-            
+            @include text(400, 16px, 25px, #3F4255)  
         }
-    }
+        }
 
     form{  
              position: relative;
             top: 0;
             left: 0;
             column-gap: 4px;
-
             img{
                 position: absolute;
                 top: 22.7px;
                 left: 18px;
                 z-index: 5;
-
             }
         input{
             @include box(336px, 72px, 6px, white, 24px 48px );
@@ -228,18 +228,117 @@ main{
             padding: 24px, 48px;
             letter-spacing: 0.5px;
             @include text(400, 16px, 24px, #9093A6);
-        
-        } }
-        
+        } 
+        } 
         button{
             
             @include text(700, 16px, 20px, #B79C10 );
             @include box(88px, 72px, 4px, #FFE145, 28px 24px  )
 
         }
+        }
+        }
+
+
+    // special
+
+.special{
+    padding: 72px 0;
+
+    &__text{
+        padding-bottom: 48px ;
+
+        h2{
+            letter-spacing: 2.5px;
+            font-family: "Poppins", sans-serif;
+            @include text(300, 36px, 64px, #3F4255)
+                   }
+
+        button{
+            letter-spacing: 0,5%;
+            text-align: center;
+            @include box(118px, 48px, 4px, #F2F4FA, 17px 24p);
+            @include text(700, 16px, 20px, #9093A6)
+        }
+    }
+
+    
+    &__item{
+        box-shadow: 0px 2px 16px 0px #3C3E4A14;
+        padding: 24px  12px 17px 12px;
+        img{
+            padding-bottom: 16px;
+            margin: auto;
+        }
+        p{
+            letter-spacing: 0.5px;
+            @include text(400, 16px, 24px, #313030);
+            width: 120px ;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        }
+        }
+// special
+
+.usp{
+   
+    padding-top: 79px ;
+
+    &__item{
         
-
-
+    &__ball{
+        margin: auto;
+        
+        @include box(126px , 126px , 50% , #FFE145 , 35px 0 );
+        p{
+            
+            text-align: center;
+            letter-spacing: 2.5px;
+            @include text(700, 58px , 64px , #3F4255);
 
         }
     }
+
+    .usp__item__border-walk {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        transition: all .3s;
+        z-index: 1;
+      }
+      
+      .usp__item__border-walk::before{
+          content: '';
+          position: absolute;
+          border: solid 1px #B79C10;
+          width: 126px;
+          height: 126px;
+          top: 0px;
+          left: 47.5px;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all .3s;
+      }
+        
+      .usp__item__border-walk:hover:before{
+          top: -20px;
+          left: 47.5px;
+          border: solid 1px #B79C10;
+          transition: all .3s;
+
+      }
+
+    &__text{ 
+        text-align: center;
+        width: 225px;
+        height: 32px;
+        font-family: "Poppins", sans-serif;        
+        @include text(600, 24px, 32px, #3F4255 )
+    }
+    .usp__ball__margin{
+
+        margin-left: 44.5px;
+    }
+}
+}

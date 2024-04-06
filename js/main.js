@@ -21,9 +21,9 @@ alert(admin)
 
 //mission ; JavaScript 2
 
-
-/*   let date: number = 28.02.1999;
-let P: BigInt = 3.14: 
+/*
+let data = "28.02.1999";
+//let P = MATH.P;
 
 let a = 2;
 
@@ -55,4 +55,50 @@ console.log(
     student phone: ${phone} `
 )
 */
+
+
+// js mission: 3
+
+/* 1
+const num = prompt("rite number")
+
+if(num < 10){
+    alert( 'constanta < 10')
+} else{
+    alert('constanta > 10')
+} 
+*/
+/* 2
+let y = 7
+let x = 10 < y ? 'x < y' : 'x > y';
+
+console.log(x)
+*/
+
+ /* 3
+let num = prompt('number?')
+
+if(num%2===0){
+    console.log('chet')
+} else{
+    console.log('nechet')
+}
+*/
+
+/* 4
+let userN1 = prompt('your number?')
+let userN2 = prompt('your number 2?')
+let userN3 = prompt('your number 3?')
+
+if(userN1 > userN2 && userN1 > userN3){
+    console.log(userN1)
+} else if(userN2 > userN1 && userN2 > userN3){
+    console.log(userN2)
+} else if(userN3 > userN1 && userN3 > userN2){
+    console.log(userN3)
+}
+*/
+
+
+
 
