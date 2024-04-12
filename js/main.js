@@ -99,6 +99,45 @@ if(userN1 > userN2 && userN1 > userN3){
 }
 */
 
+// js mission: 4
+
+/*
+function hey(x) {
+    if (x > 10) {
+        console.log( `${x} more 10`);
+    } else {
+        console.log(` ${x} min 10`);
+    }
+    
+};
+hey(5);
+
+function hello(text) {
+    alert(text)
+};
+
+hello("hello world!");
+
+function console__text(text) {
+    console.log(text);
+}
+console__text("JavaScript") 
+
+function text(text = "lor"){
+   if (text == "lorem"){
+    console.log("you got mistake in text");
+   } else {
+    console.log(`mine text: ${text}`);
+   }
+}
+text()
+*/
+
+
+
+
+
+
 
 
 

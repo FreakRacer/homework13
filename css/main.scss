@@ -156,8 +156,13 @@ main{
         button{
             letter-spacing: 0,5%;
             text-align: center;
+            transition: all 0.3s;
             @include box(118px, 48px, 4px, #F2F4FA, 17px 24p);
-            @include text(700, 16px, 20px, #9093A6)
+            @include text(700, 16px, 20px, #9093A6);
+        }
+        button:hover{
+            background-color: #D4D7E5 ;
+            transition: all 0.3s;
         }
     }
 
@@ -231,10 +236,14 @@ main{
         } 
         } 
         button{
-            
+            transition: all 0.3s;
             @include text(700, 16px, 20px, #B79C10 );
-            @include box(88px, 72px, 4px, #FFE145, 28px 24px  )
+            @include box(88px, 72px, 4px, #FFE145, 28px 24px  );
 
+        }
+        button:hover{
+            background-color: #FFF7CC;
+            transition: all 0.3s;
         }
         }
         }
@@ -257,8 +266,13 @@ main{
         button{
             letter-spacing: 0,5%;
             text-align: center;
+            transition: all 0.3s;
             @include box(118px, 48px, 4px, #F2F4FA, 17px 24p);
             @include text(700, 16px, 20px, #9093A6)
+        }
+        button:hover{
+            background-color: #D4D7E5 ;
+            transition: all 0.3s;
         }
     }
 
@@ -289,16 +303,14 @@ main{
         
     &__ball{
         margin: auto;
-        
         @include box(126px , 126px , 50% , #FFE145 , 35px 0 );
         p{
-            
             text-align: center;
             letter-spacing: 2.5px;
             @include text(700, 58px , 64px , #3F4255);
+            transition: all .3s;
 
-        }
-    }
+          }}
 
     .usp__item__border-walk {
         position: relative;
@@ -326,8 +338,13 @@ main{
           left: 47.5px;
           border: solid 1px #B79C10;
           transition: all .3s;
-
+        
       }
+      //.usp__item__border-walk 
+
+       
+     
+      
 
     &__text{ 
         text-align: center;
@@ -342,3 +359,30 @@ main{
     }
 }
 }
+// usp
+ .map{
+    padding: 72px 0;
+ }
+ // map 
+
+ .inst {
+    &__text{
+        padding-bottom: 21px;
+        letter-spacing: 2,5px;
+       h2{
+        font-family: "Poppins", sans-serif;
+        @include text(300, 36px, 64px, #3F4255);
+       }
+        span{
+            font-family: "Poppins", sans-serif;
+            @include text(300, 36px, 64px, #9093A6);
+            padding-left: 15px;
+         }
+    }
+    &__imgs{
+        padding-right: 24px;
+    }
+    &__img{
+        border-radius: 6px;
+    }
+ }

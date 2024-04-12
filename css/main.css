@@ -143,6 +143,7 @@ main {
 .places__text button {
   letter-spacing: 0, 5%;
   text-align: center;
+  transition: all 0.3s;
   width: 118px;
   height: 48px;
   border-radius: 4px;
@@ -152,6 +153,10 @@ main {
   font-size: 16px;
   line-height: 20px;
   color: #9093A6;
+}
+.places__text button:hover {
+  background-color: #D4D7E5;
+  transition: all 0.3s;
 }
 .places__img {
   padding-top: 48px;
@@ -233,6 +238,7 @@ main {
   color: #9093A6;
 }
 .form form button {
+  transition: all 0.3s;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -242,6 +248,10 @@ main {
   border-radius: 4px;
   background-color: #FFE145;
   padding: 28px 24px;
+}
+.form form button:hover {
+  background-color: #FFF7CC;
+  transition: all 0.3s;
 }
 
 .special {
@@ -261,6 +271,7 @@ main {
 .special__text button {
   letter-spacing: 0, 5%;
   text-align: center;
+  transition: all 0.3s;
   width: 118px;
   height: 48px;
   border-radius: 4px;
@@ -270,6 +281,10 @@ main {
   font-size: 16px;
   line-height: 20px;
   color: #9093A6;
+}
+.special__text button:hover {
+  background-color: #D4D7E5;
+  transition: all 0.3s;
 }
 .special__item {
   box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.0784313725);
@@ -308,6 +323,7 @@ main {
   font-size: 58px;
   line-height: 64px;
   color: #3F4255;
+  transition: all 0.3s;
 }
 .usp__item .usp__item__border-walk {
   position: relative;
@@ -346,4 +362,34 @@ main {
 }
 .usp__item .usp__ball__margin {
   margin-left: 44.5px;
+}
+
+.map {
+  padding: 72px 0;
+}
+
+.inst__text {
+  padding-bottom: 21px;
+  letter-spacing: 2, 5px;
+}
+.inst__text h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 64px;
+  color: #3F4255;
+}
+.inst__text span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 64px;
+  color: #9093A6;
+  padding-left: 15px;
+}
+.inst__imgs {
+  padding-right: 24px;
+}
+.inst__img {
+  border-radius: 6px;
 }/*# sourceMappingURL=main.css.map */
