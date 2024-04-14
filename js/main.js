@@ -123,15 +123,16 @@ function console__text(text) {
 }
 console__text("JavaScript") 
 
-function text(text = "lor"){
+function text(text){
    if (text == "lorem"){
     console.log("you got mistake in text");
    } else {
     console.log(`mine text: ${text}`);
    }
 }
-text()
+text("lor")
 */
+
 
 
 
