@@ -17,6 +17,10 @@ body {
   background-color: #F2F4FA;
 }
 
+.bg__blue {
+  background-color: #3F4255;
+}
+
 .bg-img {
   background-image: url(../img/limons.jpg);
   width: 1440px;
@@ -26,6 +30,9 @@ body {
 /* head */
 .navbar {
   padding: 24px 0;
+}
+.navbar img {
+  cursor: pointer;
 }
 .navbar__items {
   -moz-column-gap: 3px;
@@ -47,6 +54,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #9093A6;
+  cursor: pointer;
 }
 
 /* nav */
@@ -368,6 +376,9 @@ main {
   padding: 72px 0;
 }
 
+.inst {
+  padding-bottom: 72px;
+}
 .inst__text {
   padding-bottom: 21px;
   letter-spacing: 2, 5px;
@@ -392,4 +403,86 @@ main {
 }
 .inst__img {
   border-radius: 6px;
+}
+
+.foot__high {
+  padding: 28px 0 100px 0;
+}
+.foot__high .apps img {
+  cursor: pointer;
+}
+.foot__high .apps hr {
+  margin: 48px 0;
+  color: white;
+  width: 296px;
+}
+.foot__high .apps .markets img {
+  transition: all 0.2s;
+}
+.foot__high .apps .markets img:hover {
+  cursor: pointer;
+  border: solid 1px white;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.foot__high .links__text {
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+.foot__high .links__text h3 {
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+}
+.foot__high .links__text li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  color: #D4D7E5;
+  transition: all 0.1s;
+}
+.foot__high .links__text li a:hover {
+  color: #40549a;
+  transition: all 0.1s;
+}
+.foot__high .links .links__adress {
+  padding-bottom: 16px;
+}
+.foot__high .links .links__adress a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #D4D7E5;
+}
+
+.foot__low .socials {
+  padding-bottom: 50px;
+}
+.foot__low .socials svg {
+  transition: all 0.2s;
+}
+.foot__low .socials svg:hover {
+  transition: all 0.2s;
+  fill: #40549a;
+  cursor: pointer;
+}
+.foot__low .privacy a {
+  transition: all 0.1s;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  color: #D4D7E5;
+}
+.foot__low .privacy a:hover {
+  color: #40549a;
+  transition: all 0.1s;
+}
+.foot__low .privacy :nth-child(3) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #D4D7E5;
 }/*# sourceMappingURL=main.css.map */
