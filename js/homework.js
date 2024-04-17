@@ -56,7 +56,6 @@ console.log(
 )
 */
 
-
 // js mission: 3
 
 /* 1
@@ -75,7 +74,7 @@ let x = 10 < y ? 'x < y' : 'x > y';
 console.log(x)
 */
 
- /* 3
+/* 3
 let num = prompt('number?')
 
 if(num%2===0){
@@ -133,12 +132,56 @@ function text(text){
 text("lor")
 */
 
+// js missio: 5
+/*
+let a = 0;
+
+while(a < 10){
+    console.log(a)
+    a++
+}
+
+console.log(a)*/
+/*
+for( b = 0; b < 11; b++){
+   //if (b % 2 == 0) continue;
+    console.log(b);
+}
+*/
+/*
+let man = {
+   '-name': "1",
+   age: 2,
+   weight:  3,
+   skinColor: "4",
+   text: function(a) {
+     a = prompt('text')
+    console.log(a)
+   },
+}
+man.height = 190
+
+man.text();
+
+console.log(man); */
+
+/*
+let name = prompt("your name?")
+
+let password  = prompt("your password?")
+ 
 
 
+if (password == 12){
+    console.log(`welcome ${name}!`)
+} else {
+    console.log(`${password} is wrong! try again`)
+} */
 
-
-
-
-
-
-
+/*
+let num = 0;
+while (num < 3) {
+  console.log(`your ${num}`);
+  num++;
+}
+*/
