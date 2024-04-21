@@ -1,45 +1,188 @@
+
 @media (max-width: 1280px) {
-  
-    .main-text{
-        h1{
-            font-size: 50px;
-        }
+  .main-block img {
+    top: 30px;
+    left: 440px;
+    max-width: 600px;
+  }
+
+  .main-text {
+    h1 {
+      width: 508px;
+      font-size: 50px;
     }
-  
-  
-    .main-block {
+    p {
+      margin-top: 70px;
+    }
+  }
+
+  // main block
+
+  .bar {
+    width: 790px;
+    margin-top: 250px;
+    padding-left: 25px;
+    p {
+      padding-top: 2px;
+    }
+  }
+
+  // bar 
+
+  // header
+
+  .places__img__item {
+    max-width: 230px;
+    .places-logo-4 {
+      padding: 19px 83px;
+    }
+  }
+
+  // restaurants img
+
+  .form {
+    column-gap: 110px;
+    .form__input__img {
+      max-width: 240px;
+    }
+  }
+
+  // search form
+
+  .special__item {
+    max-width: 114px;
+    p {
+      font-size: 15px;
+      width: 80px;
+      font-size: 15px;
+    }
+  }
+
+  // small food icons
+
+  .bg-img {
+    width: auto;
+  }
+
+  // limon background (have bag)
+
+  .inst__img {
+    border-radius: 6px;
+    max-width: 230px;
+  }
+
+  // inst photos at end
+
+  .foot__high {
+    padding: 28px 20px 100px 20px;
+    column-gap: 80px;
+    .links__text {
+      display: grid;
+      grid-template-columns: 245px 245px ;
+      row-gap: 20px;
+    }
+  }
+  .foot__low {
+    padding: 0 20px;
+  }
+
+  // footer
+}
+@media (max-width: 1024px) {
+  .main-block img {
+    top: 50px;
+    left: 400px;
+    max-width: 450px;
+  }
+  .main-text h1 {
+    width: 408px;
+    font-size: 40px;
+  }
+
+  // main block
+
+  .bar-item {
+    p {
+      font-size: 13px;
+      line-height: 20px;
+    }
     img {
-      top: 30px;
-      left: 440px;
-      width: 685px;
-      height: 600px;
+      max-width: 38px;
+      height: 38px;
+      margin-top: 4px;
     }
   }
 
-  .bar{
+  // bar
 
-    padding-left: 35px;
-    margin: auto;
-    
-    margin-top:  315px;
-    margin-bottom: 100px;
-  }
+  // header
 
-  .places__img__item{
-    width: 226px ;
-    height: 232px;
-  }
-
-  .form{
-    justify-content: space-around;
-    .form__input__img{
-        width: 250px;
-
+  .places__img__item {
+    max-width: 170px;
+    .places-logo-1 {
+      padding: 25px 40px;
     }
+    .places-logo-2 {
+      padding: 40px 40px;
+    }
+    .places-logo-3 {
+      padding: 30px 40px;
+    }
+    .places-logo-4 {
+      padding: 20px 50px;
     }
   }
-  .special__item{
-    width: 125px;
-    height: 125px;
+
+  // restaurants img
+
+  .form {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 80px 0;
+    text-align: center;
+    p {
+      padding-left: 55px;
+    }
   }
+
+  // search form
+
+  .special__item {
+    max-width: 80px;
+    height: 120px;
+    padding: 24px 0 17px 0;
+    p {
+      font-size: 12px;
+      width: 80px;
+    }
+  }
+
+  // small food icons
+
+  .inst__img {
+    max-width: 180px;
+  }
+
+  // inst photos at end
+
+  .foot__high {
+    column-gap: 100px;
+    img {
+      padding-bottom: 20px; //logo
+    }
+    hr {
+      display: none;
+    }
+    .links__text {
+      column-gap: 10px;
+    }
+    .links__adress { // skiny text
+      width: 250px;
+    }  
+  }
+
+  // footer
+}
+
+
 
