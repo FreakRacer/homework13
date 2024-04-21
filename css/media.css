@@ -1,31 +1,136 @@
 @media (max-width: 1280px) {
-  .main-text h1 {
-    font-size: 50px;
-  }
   .main-block img {
     top: 30px;
     left: 440px;
-    width: 685px;
-    height: 600px;
+    max-width: 600px;
+  }
+  .main-text h1 {
+    width: 508px;
+    font-size: 50px;
+  }
+  .main-text p {
+    margin-top: 70px;
   }
   .bar {
-    padding-left: 35px;
-    margin: auto;
-    margin-top: 315px;
-    margin-bottom: 100px;
+    width: 790px;
+    margin-top: 250px;
+    padding-left: 25px;
+  }
+  .bar p {
+    padding-top: 2px;
   }
   .places__img__item {
-    width: 226px;
-    height: 232px;
+    max-width: 230px;
+  }
+  .places__img__item .places-logo-4 {
+    padding: 19px 83px;
   }
   .form {
-    justify-content: space-around;
+    -moz-column-gap: 110px;
+         column-gap: 110px;
   }
   .form .form__input__img {
-    width: 250px;
+    max-width: 240px;
+  }
+  .special__item {
+    max-width: 114px;
+  }
+  .special__item p {
+    font-size: 15px;
+    width: 80px;
+    font-size: 15px;
+  }
+  .bg-img {
+    width: auto;
+  }
+  .inst__img {
+    border-radius: 6px;
+    max-width: 230px;
+  }
+  .foot__high {
+    padding: 28px 20px 100px 20px;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+  }
+  .foot__high .links__text {
+    display: grid;
+    grid-template-columns: 245px 245px;
+    row-gap: 20px;
+  }
+  .foot__low {
+    padding: 0 20px;
   }
 }
-.special__item {
-  width: 125px;
-  height: 125px;
+@media (max-width: 1024px) {
+  .main-block img {
+    top: 50px;
+    left: 400px;
+    max-width: 450px;
+  }
+  .main-text h1 {
+    width: 408px;
+    font-size: 40px;
+  }
+  .bar-item p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .bar-item img {
+    max-width: 38px;
+    height: 38px;
+    margin-top: 4px;
+  }
+  .places__img__item {
+    max-width: 170px;
+  }
+  .places__img__item .places-logo-1 {
+    padding: 25px 40px;
+  }
+  .places__img__item .places-logo-2 {
+    padding: 40px 40px;
+  }
+  .places__img__item .places-logo-3 {
+    padding: 30px 40px;
+  }
+  .places__img__item .places-logo-4 {
+    padding: 20px 50px;
+  }
+  .form {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .form p {
+    padding-left: 55px;
+  }
+  .special__item {
+    max-width: 80px;
+    height: 120px;
+    padding: 24px 0 17px 0;
+  }
+  .special__item p {
+    font-size: 12px;
+    width: 80px;
+  }
+  .inst__img {
+    max-width: 180px;
+  }
+  .foot__high {
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .foot__high img {
+    padding-bottom: 20px;
+  }
+  .foot__high hr {
+    display: none;
+  }
+  .foot__high .links__text {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .foot__high .links__adress {
+    width: 250px;
+  }
 }/*# sourceMappingURL=media.css.map */

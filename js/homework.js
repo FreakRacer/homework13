@@ -151,32 +151,41 @@ for( b = 0; b < 11; b++){
 /*
 let man = {
    '-name': "1",
-   age: 2,
+   age: {
+    data:0. 0. 2002,
+    age: 2;
+   },
    weight:  3,
    skinColor: "4",
    text: function(a) {
      a = prompt('text')
-    console.log(a)
+    console.log(`hello, that is post write, i just send ${this.skinColor} )
    },
+   password: 12,
+   login: 13,
 }
 man.height = 190
 
-man.text();
+//man.text();
 
-console.log(man); */
-
-/*
-let name = prompt("your name?")
-
-let password  = prompt("your password?")
- 
+console.log(man);  
 
 
-if (password == 12){
-    console.log(`welcome ${name}!`)
+let name = prompt("your name?");
+let login = prompt("your login?")
+let password = prompt("your password?");
+
+if (password == man.password && login == man.login ) {
+  console.log(`welcome ${name}!`);
+}else if( password != man.password && login == man.login){
+    console.log("wrong password")
+} else if( password == man.password && login != man.login){
+    console.log("wrong login")
 } else {
-    console.log(`${password} is wrong! try again`)
-} */
+  console.log(`${password} is wrong! try again`);
+}
+
+*/
 
 /*
 let num = 0;
@@ -185,3 +194,69 @@ while (num < 3) {
   num++;
 }
 */
+
+//  mission js : 6
+
+//let arr = [1, "a", false, 4555,4,77,'aaa'];
+
+//arr.pop()
+
+//arr.push("end")
+
+//console.log(arr[arr.length - 1])
+
+//arr.shift()
+
+//arr.unshift("hello!")
+
+//arr[1] = "text"
+
+//let arr2 = arr.splice(2,3)
+
+//console.log(arr2[2])
+
+//let arr2 = arr.slice(0, 5)
+
+//console.log(arr)
+
+//  1
+
+
+let a = ["lorem", 123, true, "ipsum"]
+
+console.log(a.length);
+
+console.log(a[0], a[a.length - 1]);
+
+let em = []
+
+em.unshift('a', 1, 'a', 1);
+em.shift()
+em.shift()
+em[2] = 'b';
+em.push(2, 'c', 2, 'c');
+em.pop()
+em.pop()
+em.push('text', 'text', 'text')
+em.splice(5, 3)
+console.log(em)
+
+
+
+let n = [1,3,5,7,9] ;
+let b = n.map(
+    item => item + 1);
+
+    console.log(b)
+
+
+
+
+
+
+//for( b = 0; b < 11; b++){
+    //if (b % 2 == 0) continue;
+ //    console.log(b);
+
+
+

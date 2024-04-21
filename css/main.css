@@ -139,6 +139,7 @@ main {
 }
 .places__text {
   align-items: center;
+  justify-content: space-between;
 }
 .places__text h2 {
   letter-spacing: 2.5px;
@@ -169,6 +170,7 @@ main {
 .places__img {
   padding-top: 48px;
   padding-bottom: 72px;
+  justify-content: space-between;
 }
 .places__img__item {
   box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.0784313725);
@@ -315,6 +317,7 @@ main {
 
 .usp {
   padding-top: 79px;
+  justify-content: center;
 }
 .usp__item__ball {
   margin: auto;
