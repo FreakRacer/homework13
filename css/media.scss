@@ -1,4 +1,3 @@
-
 @media (max-width: 1280px) {
   .main-block img {
     top: 30px;
@@ -27,7 +26,7 @@
     }
   }
 
-  // bar 
+  // bar
 
   // header
 
@@ -78,7 +77,7 @@
     column-gap: 80px;
     .links__text {
       display: grid;
-      grid-template-columns: 245px 245px ;
+      grid-template-columns: 245px 245px;
       row-gap: 20px;
     }
   }
@@ -159,6 +158,12 @@
 
   // small food icons
 
+  .map {
+    padding: 52px 0;
+  }
+
+  // map img
+
   .inst__img {
     max-width: 180px;
   }
@@ -176,13 +181,126 @@
     .links__text {
       column-gap: 10px;
     }
-    .links__adress { // skiny text
+    .links__adress {
+      // skiny text
       width: 250px;
-    }  
+    }
   }
 
   // footer
 }
 
+@media (max-width: 768px) {
+  .main-block {
+    justify-content: center;
+    text-align: center;
+    position: none;
+    img {
+      display: none;
+    }
+    .main-text__items {
+      padding-left: 40px;
+    }
+  }
 
+  //main block
 
+  .bar {
+    width: 560px;
+    column-gap: 70px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    padding: 20px 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 35px;
+  }
+
+  // bar
+
+  //header
+
+  .places__img__item {
+    max-width: 140px;
+    .places-logo-1 {
+      padding: 25px 35px;
+    }
+    .places-logo-2 {
+      padding: 40px 35px;
+    }
+    .places-logo-3 {
+      padding: 30px 35px;
+    }
+    .places-logo-4 {
+      padding: 20px 45px;
+    }
+  }
+
+  //place
+
+  .special{
+    padding-bottom: 20px;
+  .special__item {
+    width: 60px;
+    max-width: 60px;
+    height: 90px;
+    padding: 10px 0;
+
+    img {
+      padding-bottom: 10px;
+      width: 37px;
+    }
+    p {
+      font-size: 9px;
+      width: 60px;
+      padding: 0;
+      padding-bottom: 10px;
+      font-weight: 600;
+    }
+    .special__p__padding {
+      padding: 0;
+    }
+  }
+}
+
+  // spec
+
+  .bg-img {
+    display: none;
+  }
+
+  // block limon bg
+
+  .map {
+    padding: 20px;
+  }
+
+  // map pic
+  .inst__img {
+    max-width: 120px;
+  }
+
+  // inst
+
+  .foot__high {
+    .apps {
+      height: 200px;
+    }
+    column-gap: 150px;
+    .links__text {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      .last__list__media {
+        position: absolute;
+        top: 110px;
+        left: -321px;
+      }
+    }
+  }
+}

@@ -22,14 +22,15 @@ body {
 }
 
 .bg-img {
-  background-image: url(../img/limons.jpg);
-  width: 1440px;
+  background-image: url(../img/bg-limon.jpg);
+  max-width: 100%;
   height: 284px;
 }
 
 /* head */
 .navbar {
   padding: 24px 0;
+  max-width: 1256px;
 }
 .navbar img {
   cursor: pointer;
@@ -55,6 +56,10 @@ body {
   line-height: 20px;
   color: #9093a6;
   cursor: pointer;
+}
+
+.first__hr {
+  width: 100%;
 }
 
 /* nav */
